@@ -16,6 +16,7 @@
                 "cloudformation:DescribeStackResource",
                 "cloudformation:DescribeStackResources",
                 "cloudformation:DescribeStacks",
+                "cloudformation:ListStackResources",
                 "cloudformation:UpdateStack",
                 "cloudformation:ValidateTemplate",
                 "dynamodb:CreateTable",
@@ -37,9 +38,13 @@
                 "logs:DeleteLogGroup",
                 "logs:DescribeLogGroups",
                 "s3:CreateBucket",
+                "s3:DeleteBucket",
                 "s3:DeleteObject",
+                "s3:GetEncryptionConfiguration",
                 "s3:GetObject",
                 "s3:ListBucket",
+                "s3:PutBucketPolicy",
+                "s3:PutEncryptionConfiguration",
                 "s3:PutObject"
 
             ],
